@@ -1,0 +1,54 @@
+title: Contact
+pages: false
+files: true
+icon: envelope
+fields:
+  tab1:
+    label: Información
+    type: tabs
+    icon: align-left
+
+  title:
+    label: Título
+    type:  text
+
+
+  address:
+    label: Dirección
+    type: text
+
+  email:
+    label: Correo
+    type:  email
+    icon: envelope
+    width: 1/2
+    help: correo@ejemplo.com
+
+  phone:
+    label: Celular
+    type:  tel
+    icon: mobile
+    width: 1/2
+    help: Incluir numero LADA
+    placeholder: (33) 1234 5678
+
+  facebook:
+    label: Facebook
+    type:  url
+    icon: facebook
+    width: 1/2
+    help: Enlace de tu perfil
+
+  instagram:
+    label: Instagram
+    type:  url
+    icon: instagram
+    width: 1/2
+    help: Enlace de tu perfil
+
+  twitter:
+    label: Twitter
+    type:  url
+    icon: twitter
+    width: 1/2
+    help: Enlace de tu perfil

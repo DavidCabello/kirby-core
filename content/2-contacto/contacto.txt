@@ -1,0 +1,57 @@
+Title: Contacto
+
+----
+
+Street: Example adress
+
+----
+
+Cp: 12345
+
+----
+
+Colony: Centro
+
+----
+
+City: Guadalajara
+
+----
+
+State: Jalisco
+
+----
+
+Country: Mexico
+
+----
+
+Email: mail@empresa.com
+
+----
+
+Telephone: 33 34567890
+
+----
+
+Phone: 33 67891011
+
+----
+
+Whatsapp: 33 45678910
+
+----
+
+Facebook: https://www.facebook.com/
+
+----
+
+Instagram: https://www.instagram.com/
+
+----
+
+Twitter: https://twitter.com/
+
+----
+
+Usertwitter:

@@ -1,0 +1,52 @@
+title: Site
+pages: default
+fields:
+  tab1:
+    label: Contenido
+    type: tabs
+    icon: align-left
+
+  title:
+    label: Title
+    type:  text
+
+  author:
+    label: Author
+    type:  text
+    icon: font
+    placeholder: Empresa
+    help: Nombre del autor
+
+  tab2:
+    label: Deploy
+    type: tabs
+    icon: plug
+
+  info:
+    label: Información
+    type: info
+    text: >
+      Estos campos nos permiten actualizar la versión de nuestros archivos mediante valores numéricos de manera en incremento,
+      para que se vean reflejados los cambios cada que se realizan ajustes.
+      Solución para conflictos en la memoria cache de los navegadores.
+      <i class="fa fa-chrome" aria-hidden="true"></i>
+      <i class="fa fa-firefox" aria-hidden="true"></i>
+      <i class="fa fa-internet-explorer" aria-hidden="true"></i>
+      <i class="fa fa-safari" aria-hidden="true"></i>
+
+
+  favicon:
+    label: FAVICON
+    type:  text
+    icon: file
+    width: 1/2
+    placeholder: 0.01
+    help: Numero de versión para el <strong>favicon</strong>
+
+  config:
+    label: Configuration
+    type:  text
+    icon: file
+    width: 1/2
+    placeholder: 0.01
+    help: Numero de versión para el archivo <strong>config.min.js</strong>

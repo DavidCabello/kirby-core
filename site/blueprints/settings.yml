@@ -1,0 +1,36 @@
+title: Settings
+icon: cog
+files: true
+pages: false
+options:
+  delete: false
+  preview: false
+  status: false
+  url: false
+fields:
+  title:
+    label: Título
+    type:  text
+
+  info:
+    label: SEO / Meta Tags
+    type: info
+    text: >
+      El posicionamiento en buscadores u optimización de motores de búsqueda es el proceso de mejorar
+      la visibilidad de un sitio web en los resultados orgánicos de los diferentes buscadores.
+
+  seoimage:
+    label: Imagen para Rede sociales / (Share)
+    type:  image
+    help: Imagen que aparece al compartir la URL de tu sitio web
+
+  seodescription:
+    label: Descripción
+    type:  textarea
+    placeholder: ¿Quiénes somos?
+    help: Breve descripción sobre <strong>¿Quiénes somos?</strong> (50–300 characters.)
+
+  seotags:
+    label: keywords
+    type:  tags
+    help: Agregar el nombre de cada palabra separado por una <strong>coma (,)</strong>

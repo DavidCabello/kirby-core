@@ -1,0 +1,11 @@
+title: Error
+icon: frown-o
+pages: false
+fields:
+  title:
+    label: Título
+    type:  text
+
+  description:
+    label: Texto descriptivo
+    type:  markdown
