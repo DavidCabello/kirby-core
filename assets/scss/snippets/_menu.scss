@@ -1,13 +1,18 @@
 .menu{
 	position: fixed;
-	width: 100%;
+	width: 100vw;
 	height: 100vh;
-	opacity: 0;
+	opacity: 0.3;
 	top: 0;
-	left: 0;
-	visibility: hidden;
+	right: 0;
 	background: white;
 	z-index: 200;
+	padding: 15px 0 35px 0;
+
+	transform: translateX(100%);
+	-webkit-transform: translateX(100%);
+	-moz-transform: translateX(100%);
+	-ms-transform: translateX(100%);
 
 	&__close{
 		position: relative;

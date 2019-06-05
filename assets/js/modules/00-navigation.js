@@ -1,31 +1,23 @@
 
 var NAVIGATION = (function(navigation) {
 	//V A R S
-
+	var openMenu = $(".js-open-menu");
+	var closeMenu = $(".js-close-menu");
+	var itemMenu = $(".js-menu");
+	
 	navigation = {
 		init: function(){
-			navigation.Navigation();
+			navigation.Show();
 		},
-		Navigation: function(){
-			//Open menu
-			$('.js-open-menu').click(function(event) {
-				TweenMax.to($('.js-menu'), 0.5,{
-					delay : 0.5,
-					autoAlpha : 1,
-					ease: Expo.easeInOut,					
-					onComplete: function(){
+		
+		Show: function(){
 
-					}
-				});
+			openMenu.click(function(){
+				TweenMax.to(itemMenu, 1, {autoAlpha: 1, transform : "translateX(0)", ease: Expo.easeOut});
 			});
 
-			//Close menu
-			$('.js-close-menu').click(function(event) {
-				TweenMax.to($('.js-menu'), 0.5, {
-					delay : 0.5,
-					autoAlpha : 0,
-					ease: Expo.easeInOut
-				});
+			closeMenu.click(function(){
+				TweenMax.to(itemMenu, 1, {opacity: .3, transform : "translateX(100vw)", ease: Expo.easeIn});
 			});
 		}
 
