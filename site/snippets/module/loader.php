@@ -1,4 +1,6 @@
-<div class="loader" id="loader" role="loader">
-	<div class="loader__container">
-	</div>
+<div class="loader loader-container" id="loader" role="loader">
+    <div class="spinner">
+      <div class="double-bounce1"></div>
+      <div class="double-bounce2"></div>
+    </div>
 </div>

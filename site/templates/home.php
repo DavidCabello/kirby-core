@@ -1,6 +1,6 @@
 <?php snippet('header') ?>
-<?php snippet('navigation') ?>
 <?php snippet('module/loader') ?>
+<?php snippet('navigation') ?>
 
 	<main class="home js-home">
 
