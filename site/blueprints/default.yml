@@ -1,10 +1,8 @@
 title: Page
+icon: bars
 pages: false
+files: false
 fields:
   title:
     label: Title
     type:  text
-
-  description:
-    label: Texto
-    type:  markdown
