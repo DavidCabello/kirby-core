@@ -2,7 +2,7 @@
 
 	<div class="footer__logo">
 		<a href="<?= $site->url(); ?>" title="<?= $site->title()->html(); ?>">
-			<?php snippet('icons/logo') ?>
+			<img src="<?= $site->url(); ?>/assets/icons/logo.svg" alt="">
 			logo
 		</a>
 	</div>
@@ -15,17 +15,17 @@
 	<div class="footer__social">
 
 		<a href="<?= page('contacto')->twitter() ?>" title="Twitter" target="_blank">
-			<?php snippet('icons/twitter') ?>
+			<img src="<?= $site->url(); ?>/assets/icons/twitter.svg" alt="">
 			Twitter
 		</a>
 
 		<a href="<?= page('contacto')->facebook() ?>" title="Facebook" target="_blank">
-			<?php snippet('icons/facebook') ?>
+			<img src="<?= $site->url(); ?>/assets/icons/facebook.svg" alt="">
 			Facebook
 		</a>
 	
 		<a href="<?= page('contacto')->instagram() ?>" title="Instagram" target="_blank">
-			<?php snippet('icons/instagram') ?>
+			<img src="<?= $site->url(); ?>/assets/icons/instagram.svg" alt="">
 			Instagram
 		</a>
 		

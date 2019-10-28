@@ -2,7 +2,7 @@
 
 	<div class="navigation__logo">
 		<a href="<?= $site->url(); ?>" title="<?= $site->title(); ?>">
-			<?php snippet('icons/logo') ?>
+			<img src="<?= $site->url(); ?>/assets/icons/logo.svg" alt="">
 			logo
 		</a>
 	</div>

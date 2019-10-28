@@ -62,6 +62,14 @@
 	transform: translateX(-50%) translateY(-50%);
 }
 
+@mixin normal-align() {
+	-moz-transform: none;
+	-webkit-transform: none;
+	-o-transform: none;
+	-ms-transform: none;
+	transform: none;
+}
+
 @mixin horizontal-align() {
 	-moz-transform: translateX(-50%);
 	-webkit-transform: translateX(-50%);
