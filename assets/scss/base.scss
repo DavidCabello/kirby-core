@@ -34,15 +34,15 @@ $screen-full:			1600px  !default;
 
 /* =Fonts
 -----------------------------------------------------------------------------*/
-$title: 			"Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-$title-bold: 		"Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+$title: 			"Segoe UI", "Roboto", "Helvetica Neue", "Arial", "sans-serif";
+$title-bold: 		"Segoe UI", "Roboto", "Helvetica Neue", "Arial", "sans-serif";
 
-$text: 			"Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-$text-light: 		"Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-$text-bold: 		"Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+$text: 				"Segoe UI", "Roboto", "Helvetica Neue", "Arial", "sans-serif";
+$text-light: 		"Segoe UI", "Roboto", "Helvetica Neue", "Arial", "sans-serif";
+$text-bold: 		"Segoe UI", "Roboto", "Helvetica Neue", "Arial", "sans-serif";
 
-$text-mono:	monospace, monospace;
-$text-serif: 		'Merriweather', serif;
+$text-mono:			"monospace", "monospace";
+$text-serif: 		"Merriweather", "serif";
 
 @mixin title{
 	@include titles($title, normal, 700);
