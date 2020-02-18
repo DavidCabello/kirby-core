@@ -7,10 +7,24 @@
 	</div>
 
     <div class="menu__navigation">
-        <ul>
-            <li><a href="<?= page('home')->url() ?>">Home</a></li>
-            <li><a href="<?= page('contacto')->url() ?>">Contacto</a></li>		
-        </ul>        
+        <?php foreach($pages->visible() as $subpage): ?>
+			<a <?php e($subpage->isActive(), 'class="active"') ?> href="<?= $subpage->url() ?>">
+				<?= html($subpage->title()) ?>
+			</a>
+		<?php endforeach ?>
+
+        <!-- <a href="<?= page('home')->url() ?>">Home</a>
+        <a href="<?= page('contacto')->url() ?>">Contacto</a>      -->
     </div>
+
+    <!--WAYPOINTS MENU-->	
+    <!-- <div class="menu__navigation" id="scroller__menu">
+        <a data-id="#scrollTo__home" href="<?= $site->url(); ?>">
+            Home
+        </a>
+        <a data-id="#scrollTo__contacto" href="<?= $site->url(); ?>">
+            Contacto
+        </a>
+    </div> -->
     
 </div>

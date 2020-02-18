@@ -21,23 +21,14 @@
 
 	&__navigation{
 		position: relative;
-		width: 60%;
-		margin: 0 auto;
-		top: 200px;
-
-		ul{
-			list-style: none;
-			margin: 0;
-			padding: 0;
-			li{
-				margin-bottom: 20px;
-				a{
-					display: block;	
-					text-decoration: none;			
-				}
-			}
+		margin: 20px auto;
+		text-align: center;
+		a{
+			display: block;	
+			text-decoration: none;
+			font-size: 1.6rem;
+			margin: 25px 0;
 		}
-
 	}
 
 }

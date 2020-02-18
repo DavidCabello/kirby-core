@@ -5,9 +5,21 @@ var GENERAL = (function(general) {
 
 	general = {
 		init: function(){
-			//IMG
 			bg.imgLiquid();
+		},
+
+		//FLICKITY
+		Carousel: function(){
+			$('.main-carousel').flickity({
+				pageDots: true,
+				contain: true,
+				prevNextButtons: false,
+				autoPlay: true,
+				pauseAutoPlayOnHover: false,
+				groupCells: 1,
+			});
 		}
+
 	}
 
 	return general;
