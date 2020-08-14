@@ -3,6 +3,34 @@
 	padding: 0 !important;
 }
 
+.full{
+    @include media(small){
+        display: none;
+    }
+}
+
+.resBlock{
+    display: none;
+    @include media(small){
+        display: block;
+    }
+}
+
+.resFlex{
+    display: none;
+    @include media(small){
+        display: flex;
+    }
+}
+
+.hide{
+    display: none !important;
+}
+
+.show{
+    display: block !important;
+}
+
 .center__align{
     @include center-align();
 	position: relative;
@@ -26,7 +54,7 @@
     position: relative;
     color: $color-primary;;
     span{
-		@include title-bold;
+		@include text-bold;
     }
 }
 
@@ -84,3 +112,55 @@
         outline: none;
     }
 }
+
+.honey{
+    position: absolute;
+    left: -9999px;
+}
+
+.alert{
+    width: 22.5rem;
+    margin: 1.5rem auto;
+    color: red;
+    ul, li{
+        list-style: disc;
+        margin-bottom: 0.5rem;
+    }
+    a{
+        text-decoration: underline;
+    }
+}
+
+.help{
+    display: block;
+    margin-top: 0.5rem;
+    font-size: 1rem;
+}
+
+.mainModal{
+    
+    .modal-dialog{
+        width: 70%;
+        pointer-events: all;
+        max-width: 3000px; 
+        margin: 5% auto;
+        @include media(full){
+            width: 60%;  
+        }
+        @include media(medium){
+            width: 90%;  
+        }
+        @include media(small){
+            width: 95%;  
+        }
+    }
+
+    &__container{
+        position: relative;
+        width: 100%;
+        background: #F0F0F0;
+        padding: 15px;
+    }
+
+}
+

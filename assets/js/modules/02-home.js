@@ -5,6 +5,7 @@ var HOME = (function(home) {
 		init: function(){
 			home.Loader();
 		},
+
 		Loader: function(){
 			if (Cookies.get('kirby')) {
 				TweenMax.to($('#loader'), 0.2,{

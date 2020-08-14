@@ -1,13 +1,17 @@
 <?php snippet('header') ?>
-<?php snippet('loader') ?>
-<?php snippet('navigation') ?>
 
-	<main class="home js-home">
+<!-- LOADER -->
+<div class="loader loader-container" id="loader" role="loader">
+    <div class="spinner">
+      <div class="double-bounce1"></div>
+      <div class="double-bounce2"></div>
+    </div>
+</div>
 
-		<h1><?= $page->title()->html() ?></h1>
-			
+<main class="home js-home">
 
-	</main>
+  <h1><?= $page->title()->html() ?></h1>
+  
+</main>
 
 <?php snippet('footer') ?>
-<?php snippet('footer.code') ?>

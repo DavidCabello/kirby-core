@@ -1,14 +1,4 @@
-// ============TITLES================
-
-@mixin titles($typo, $style, $weight) {
-	font-family: $typo;
-	font-style: $style;
-	font-weight: $weight;
-}
-
-// =============VARIABLES==============
-
-/* =Colors
+/* = Colors
 -----------------------------------------------------------------------------*/
 $color-primary:				#000000;
 $color-secondary: 			#005BFE;
@@ -32,31 +22,30 @@ $screen-md:				1024px  !default;
 $screen-lg:				1440px  !default;
 $screen-full:			1600px  !default;
 
-/* =Fonts
+/* = Fonts
 -----------------------------------------------------------------------------*/
-$title: 			"Segoe UI", "Roboto", "Helvetica Neue", "Arial", "sans-serif";
-$title-bold: 		"Segoe UI", "Roboto", "Helvetica Neue", "Arial", "sans-serif";
-
-$text: 				"Segoe UI", "Roboto", "Helvetica Neue", "Arial", "sans-serif";
 $text-bold: 		"Segoe UI", "Roboto", "Helvetica Neue", "Arial", "sans-serif";
+$text-semiBold: 	"Segoe UI", "Roboto", "Helvetica Neue", "Arial", "sans-serif";
+$text-regular: 		"Segoe UI", "Roboto", "Helvetica Neue", "Arial", "sans-serif";
+$text-light: 		"Segoe UI", "Roboto", "Helvetica Neue", "Arial", "sans-serif";
 
-$text-mono:			"monospace", "monospace";
-$text-serif: 		"Merriweather", "serif";
-
-@mixin title{
-	@include titles($title, normal, 400);
-}
-
-@mixin title-bold{
-	@include titles($title-bold, normal, 700);
-}
-
-@mixin text{
-	@include titles($text, normal, 400);
-}
+/* = Mixings
+-----------------------------------------------------------------------------*/
 
 @mixin text-bold{
-	@include titles($text-bold, normal, 700);
+	font-family: $text-bold;
+}
+
+@mixin text-semiBold{
+	font-family: $text-semiBold;
+}
+
+@mixin text-regular{
+	font-family: $text-regular;
+}
+
+@mixin text-light{
+	font-family: $text-light;
 }
 
 
@@ -67,13 +56,13 @@ html{
 }
 
 body{
-	@include text;
+	@include text-regular();
 }
 
 /* =Titles
 -----------------------------------------------------------------------------*/
 h1, h2, h3, h4, h5, h6{
-	@include title;
+	
 }
 
 h1{

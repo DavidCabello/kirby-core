@@ -1,0 +1,11 @@
+Title: Success
+
+----
+Text:
+
+Hola {{ name }},
+Se envio tu correo exitosamente.
+
+Estaremos en contacto.
+
+Tu departmento de HR 

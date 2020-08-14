@@ -13,7 +13,7 @@
 			}
 		}
 	};
-
+	
 	//I N I T
 	 window.APP = APP;
 	 window.onload = function() {

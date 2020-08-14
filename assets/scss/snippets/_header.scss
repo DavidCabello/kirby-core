@@ -1,0 +1,55 @@
+.header{
+	position: relative;
+	width: 100%;
+	height: 100px;
+	padding: 10px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	z-index: 100;
+
+	&__logo{
+		position: relative;
+		width: 40%;
+		@include media(small){
+		  width: 50%;
+		}
+
+		svg{
+			
+		}
+	}
+
+	&__container{
+		position: relative;
+		width: 60%;
+
+		@include media(small){
+		  display: none !important;
+		}
+		a{
+			&.active{
+				border-bottom: 2px solid;
+			}
+			&:hover{
+
+			}
+		}
+	}
+
+	&__menu{
+		position: relative;
+		width: 50%;
+		justify-content: flex-end;
+		display: none;
+
+		a{
+
+		}
+
+		@include media(small){
+		  display: flex;
+		}
+	}
+		
+}

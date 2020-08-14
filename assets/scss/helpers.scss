@@ -43,8 +43,6 @@
 	}
 }
 
-// ================MIXINS=================
-
 // CENTER,HORIZONTAL,VERITCAL-ALIGN
 
 @mixin center-align() {
@@ -87,27 +85,5 @@
 	-ms-transition: all $time ease-in-out;
 	-o-transition: all $time ease-in-out;
 	transition: all $time ease-in-out;
-}
-
-// CALCULATE
-
-@function rTres($var, $cien){
-	@return ($var * 100)/$cien;
-}
-
-@function porciento($var, $cien){
-	@return rTres($var, $cien) * 1%;
-}
-
-@function tvw ($var, $cien){
-	@return rTres($var,$cien) * 1vw;
-}
-
-@function tvh ($var, $cien){
-	@return rTres($var,$cien) * 1vh;
-}
-
-@function psTr($ps){
-	@return ($ps / 1000) * 1em;
 }
 
