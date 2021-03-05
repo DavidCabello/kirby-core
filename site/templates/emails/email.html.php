@@ -1,6 +1,8 @@
-Hello,
+<h2>Contact form</h2>
 
 <p><?= $message ?></p>
 
-<p>Yours sincerely,</p>
-<p><?= $name ?></p>
+<ul>
+    <li><?= $name ?></li>
+    <li><?= $email ?></li>
+</ul>

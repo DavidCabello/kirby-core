@@ -3,9 +3,5 @@ Title: Success
 ----
 Text:
 
-Hola {{ name }},
-Se envio tu correo exitosamente.
-
-Estaremos en contacto.
-
-Tu departmento de HR 
+##Hola {{ name }},
+Tu correo se ha enviado correctamente.
